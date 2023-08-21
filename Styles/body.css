@@ -4,17 +4,21 @@
 
 /* Body style */
 body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+body {
   color: #242323;
-  font: 14px Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 15px Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
-  -webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
+  line-height: 1.75em;
   background: #eee;
-  min-width: 1900px;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+  font-weight: 400;
+  position: relative;
+  /*min-width: 1900px;*/
 }
 
 /* Container style */
