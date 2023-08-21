@@ -1,0 +1,162 @@
+/*
+ * === Places class style ===
+ */
+
+/* Latest flexbox */
+.Latest {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Article style */
+.Latest article {
+  border: 1px solid  rgb(73, 1, 121);
+  border-radius: 4px;
+  margin: 20px;
+  padding: 20px;
+  width: 390px;
+  background-color: white;
+}
+
+/* Name and price header */
+.Latest .item_name {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Price circle */
+.Latest .price {
+  align-items: center;
+  border: 2px solid  rgb(73, 1, 121);
+  border-radius: 50%;
+  color:  rgb(173, 4, 4);
+  display: flex;
+  font-size: 30px;
+  height: 60px;
+  justify-content: center;
+  min-width: 60px;
+}
+
+/* Product information*/
+.Latest .information {
+  /*border-top: 1px solid #ddd;*
+  border-bottom: 1px solid #ddd;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  max-height: 100%;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+/* Padding around supplier */
+.Latest .supplier {
+  margin: 20px auto 20px auto;
+}
+
+/*
+ * -- Places header style --
+ */
+
+/* Header 1 style */
+.Latest h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: .67em 0 .67em 0;
+  width: 100%;
+}
+
+/* Header 2 style */
+.Latest h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Browse more - button design */
+.my_button {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Clarkson,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  padding: 1.5em 2.2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.my_button:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #EBEBEB;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+
+.my_button:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.my_button:after {
+  background-color: #FFFFFF;
+}
+
+.my_button span {
+  z-index: 1;
+  position: relative;
+}
+
+/* Brwose more centering */
+.browse_more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0px;
+  margin: 50px;
+}
+/** Browse more button design **/
+
+/* Making images rounded and cursor to change into pointer when highlighted */
+img {
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}

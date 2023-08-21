@@ -1,0 +1,94 @@
+/*
+ * === Header style ===
+ */
+
+/* Header style */
+header {
+  background: #ddd;
+  border-bottom: 1px solid #ccc;
+  height: 50px;
+  width: 100%;
+  position: static;
+  display: block;
+}
+/** Header style **/
+
+/* Links to the navigation (FAQ & T&C), button styles *
+button {
+  padding: 10px 10px 10px 10px;
+  background-color:rgb(202, 198, 198);
+  margin: 2px 2px;
+  float: right;
+  touch-action: manipulation;
+  font-family: Inter, sans-serif
+}*/
+
+.button-59:focus {
+  color: #171e29;
+}
+
+.button-59:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.button-59:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.nav-link {
+    font-weight: 400;
+    margin-right: 0px;
+    cursor: pointer;
+    float: right;
+}
+
+.topnav-right {
+  float: right; 
+}
+
+button {
+    text-shadow: none;
+    padding: 4px 10px 4px 10px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    line-height: 1em;
+    font-size: 20px;
+    font-weight: 400;
+    border-style: solid;
+    color: #fff;
+    border-width: 0;
+    -webkit-transition: background-color .15s ease-out;
+    transition: background-color .15s ease-out;
+    background-color: rgb(202, 198, 198);;
+    margin: 3px 0;
+    outline: none;
+}
+
+/** Links to the navigation (FAQ & T&C), button styles **/
+
+/* Marquee tex (moving text) */
+.mov-text {
+  position: absolute;
+  color: rgb(129, 99, 2);
+  width: 1500%;
+  font-family: Alex brush;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 10px;
+}
+/** Marquee tex (moving text) **/
+
+/* Hello! text on the header */
+h0 {
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  font-family: Hughs;
+  font-size: 30px;
+  color: #042a63;
+}
+/** Hello! text on the header **/
